@@ -6,5 +6,8 @@ A little jquery plugin for Revolver
 ## Usage
 
 ```javascript
-$('my-slider').revolver({slidesSelector: '.slide'});
+$('#my-slider').revolver({slidesSelector: '.slide'});
+
+// get instance
+var revolver = $('#my-slider').data('revolver');
 ```
